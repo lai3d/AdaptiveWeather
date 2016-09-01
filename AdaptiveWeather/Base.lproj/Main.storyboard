@@ -23,7 +23,27 @@
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gzb-gx-5Hb" userLabel="TextContainer">
                                 <rect key="frame" x="0.0" y="237" width="600" height="363"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cupertino" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4L-Mr-OMs">
+                                        <rect key="frame" x="-4" y="10" width="608" height="180"/>
+                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="150"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZ2-So-geb">
+                                        <rect key="frame" x="77" y="54" width="447" height="299"/>
+                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="250"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.21568627450980393" green="0.50196078431372548" blue="0.72941176470588232" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="h4L-Mr-OMs" firstAttribute="top" secondItem="gzb-gx-5Hb" secondAttribute="top" constant="10" id="Jk9-w2-7kh"/>
+                                    <constraint firstItem="WZ2-So-geb" firstAttribute="centerX" secondItem="gzb-gx-5Hb" secondAttribute="centerX" id="euc-sQ-tNB"/>
+                                    <constraint firstItem="h4L-Mr-OMs" firstAttribute="centerX" secondItem="gzb-gx-5Hb" secondAttribute="centerX" id="oqu-vX-HBp"/>
+                                    <constraint firstAttribute="bottom" secondItem="WZ2-So-geb" secondAttribute="bottom" constant="10" id="pSp-IQ-5Nv"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.29019607843137252" green="0.6705882352941176" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
